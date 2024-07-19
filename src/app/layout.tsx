@@ -23,7 +23,7 @@ export default async function RootLayout({
   const data = await res.json();
   return (
     <html lang="en">
-      <body className={`${inter.className} overflow-hidden`}>
+      <body className={`${inter.className} `}>
         <GLobalContext>
           <AppBar />
           <main className="container mx-auto mt-20">
